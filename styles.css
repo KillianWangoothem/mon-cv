@@ -1,0 +1,16 @@
+h1{
+    color:MidnightBlue
+}
+body{
+    color:DarkOliveGreen;
+    background-color: WhiteSmoke;
+}
+em{
+    color:#FFA500
+}
+mark{
+    background-color: Violet;
+}
+a[title]{
+    color: OrangeRed
+}
