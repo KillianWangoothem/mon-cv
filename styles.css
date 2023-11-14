@@ -1,16 +1,94 @@
-h1{
-    color:MidnightBlue
+html{
+    height:100%;
+    width: 100%;
+    font-size: 100%;
 }
+
 body{
     color:DarkOliveGreen;
     background-color: WhiteSmoke;
+    height:100%;
 }
+
+#constru{
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    color:MidnightBlue
+}
+
+#entete{
+    background-color: darkseagreen;
+    background-size: auto;
+    height: 35px;
+    min-width: 20%;
+    border: 5px solid  lightseagreen;
+    padding: 5px;
+    padding-top : 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#description{
+    background-color: brown;
+    border-radius: 30px ;
+    min-height: 45%;
+    min-width : 95%;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+#boites{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 25px;
+    height: 100%;
+    width: 100%;
+}
+
+#qualite{
+    background-color: steelblue;
+    min-height: 30%;
+    min-width: 42.5%;
+    border-radius: 30px ;
+    text-align: center;
+}
+
+#capacite{
+    background-color: violet;
+    min-height: 30%;
+    min-width: 42.5%;
+    border-radius: 30px ;
+    text-align: center;
+}
+
+li{
+    text-align: left;
+}
+
 em{
     color:Orange
 }
+
 mark{
     background-color: Violet;
 }
+
 a[title]{
     color: OrangeRed
+}
+
+@media screen and (max-width: 64em) {
+    #entete{
+        font-size: 1em;    
+    }
+}
+
+@media screen and (max-width: 50em) {
+    #entete{
+        font-size: 0.75em;
+    }
 }
