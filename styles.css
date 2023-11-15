@@ -2,6 +2,7 @@ body{
     color:indigo;
     background-color: WhiteSmoke;
     justify-content: flex-start;
+    font-size: 1em; 
     
 }
 
@@ -49,8 +50,6 @@ h1{
     text-align: center;
 }
 
-
-
 #qualite{
     background-color: Moccasin;
     padding-top : 5px;
@@ -87,12 +86,6 @@ a[title]{
 
 @media screen and (max-width: 64em) {
     #entete{
-        font-size: 1em;    
-    }
-}
-
-@media screen and (max-width: 50em) {
-    #entete{
-        font-size: 0.75em;
+        font-size: 1.5em;    
     }
 }
