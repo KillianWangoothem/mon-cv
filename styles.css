@@ -1,5 +1,5 @@
 body{
-    color:DarkOliveGreen;
+    color:indigo;
     background-color: WhiteSmoke;
     justify-content: flex-start;
     
@@ -17,31 +17,13 @@ h1{
 #entete{
     background-color: darkseagreen;
     background-size: auto;
-    height: 3%;
-    min-width: 20%;
     border: 5px solid lightseagreen;
-    padding: 5px;
-    padding-top : 10px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
 }
 
-#description{
-    background-color: brown;
-    border: 1px;
-    border-radius: 30px ;
-    padding : 10px;
-    min-height: 45%;
-    min-width : 95%;
-    max-width : 95%;
-    margin-left: auto;
-    margin-right: auto; 
-    text-align: start;
-    background-size: cover;
-}
-
-#boites{
+.boites{
     display: flex;
     justify-content: space-evenly;
     margin-top: 25px;
@@ -49,8 +31,28 @@ h1{
     width: 100%;
 }
 
+#infoperso{
+    background-color: goldenrod;
+    padding-top : 5px;
+    min-height: 30%;
+    min-width: 45%;
+    border-radius: 30px ;
+    text-align: center;
+}
+
+#etudeexppro{
+    background-color: chocolate;
+    padding-top : 5px;
+    min-height: 30%;
+    min-width: 45%;
+    border-radius: 30px ;
+    text-align: center;
+}
+
+
+
 #qualite{
-    background-color: steelblue;
+    background-color: Moccasin;
     padding-top : 5px;
     min-height: 30%;
     min-width: 45%;
@@ -59,7 +61,7 @@ h1{
 }
 
 #capacite{
-    background-color: violet;
+    background-color: steelblue;
     padding-top : 5px;
     min-height: 30%;
     min-width: 45%;
