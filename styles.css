@@ -2,94 +2,58 @@ body{
     color:indigo;
     background-color: WhiteSmoke;
     justify-content: flex-start;
-    font-size: 1em; 
+    font-size: 1.1em; 
     
-}
-
-#constru{
-    display: flex;
-    flex-direction: column;
 }
 
 h1{
     color:MidnightBlue;
+    margin-left: 20%;
 }
 
-.soustitre{
-    text-align: left;
-    text-indent: 5%;
+#page{
+    display: flex;
 }
 
-#entete{
-    background-color: darkseagreen;
+#infosecondaires{
+    background-color: cornsilk;
     background-size: auto;
-    border: 5px solid lightseagreen;
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#infoprincipales{
+    background-color: lavender;
+    background-size: auto;
+    width: 67%;
+    display: flex;
+    flex-direction: column;
+}
+
+.soustitres{
+    text-align: center;
+    background-color: teal;
+    background-size: auto;
+    border-radius:1cap;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.listes{
+    display: flex;
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
-
+    flex-direction: column;
+    line-height: 3;
 }
 
-.boites{
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 25px;
-    height: 100%;
-    width: 100%;
-}
-
-#infoperso{
-    background-color: goldenrod;
-    padding-top : 5px;
-    min-height: 30%;
-    min-width: 45%;
-    border-radius: 30px ;
-    text-align: center;
-}
-
-#etudeexppro{
-    background-color: chocolate;
-    padding-top : 5px;
-    min-height: 30%;
-    min-width: 45%;
-    border-radius: 30px ;
-    text-align: center;
-}
-
-#qualite{
-    background-color: Moccasin;
-    padding-top : 5px;
-    min-height: 30%;
-    min-width: 45%;
-    border-radius: 30px ;
-    text-align: center;
-}
-
-#capacite{
-    background-color: steelblue;
-    padding-top : 5px;
-    min-height: 30%;
-    min-width: 45%;
-    border-radius: 30px ;
-    text-align: center;
-}
-
-#acquis{
-    background-color: yellowgreen;
-    padding-top : 5px;
-    min-height: 30%;
-    min-width: 45%;
-    border-radius: 30px ;
-    text-align: center;
-}
-
-
-footer{
-    margin-left: auto;
-}
 
 li{
     text-align: left;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 em{
@@ -105,7 +69,5 @@ a[title]{
 }
 
 @media screen and (max-width: 64em) {
-    #entete{
-        font-size: 1.5em;    
-    }
+
 }
